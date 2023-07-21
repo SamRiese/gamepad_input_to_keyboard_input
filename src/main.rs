@@ -46,7 +46,7 @@ fn main() {
     let gamepad_one_keys = Keys::new(Key::Layout('w'), Key::Layout('a'),Key::Layout('d'));
 
     let gamepad_two_id = gamepads.get(1);
-    let gamepad_two_keys = Keys::new(Key::UpArrow, Key::LeftArrow,Key::RightArrow);
+    let gamepad_two_keys = Keys::new(Key::UpArrow, Key::LeftArrow, Key::RightArrow);
 
     let gamepad_three_id = gamepads.get(2);
     let gamepad_three_keys = Keys::new(Key::Layout('i'), Key::Layout('j'), Key::Layout('l'));
