@@ -1,6 +1,4 @@
-use std::any::Any;
-use std::collections::HashMap;
-use gilrs::{Gilrs, Event, EventType, Button, GamepadId, Gamepad, Axis};
+use gilrs::{Gilrs, Event, Button, GamepadId, Gamepad, Axis};
 use enigo::*;
 
 struct Keys {
