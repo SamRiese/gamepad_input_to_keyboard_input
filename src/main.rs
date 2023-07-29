@@ -35,7 +35,7 @@ fn main() {
     let mut enigo = Enigo::new();
 
     let mut gamepads: Vec<GamepadId> = Vec::new();
-    let gamepad_keys = vec![
+    let gamepad_keys: Vec<Keys> = vec![
         Keys::new(Key::Layout('w'), Key::Layout('a'),Key::Layout('d')),
         Keys::new(Key::UpArrow, Key::LeftArrow, Key::RightArrow),
         Keys::new(Key::Layout('i'), Key::Layout('j'), Key::Layout('l')),
